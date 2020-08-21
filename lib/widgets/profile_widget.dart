@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:salmanapp/pages/addressPage.dart';
 import 'package:salmanapp/pages/orderPage.dart';
 import 'package:salmanapp/pages/accountPage.dart';
+import 'package:salmanapp/pages/welcomePage.dart';
 
 class Profilepage extends StatelessWidget {
   @override
@@ -225,10 +226,15 @@ class Logout extends StatelessWidget {
             child: RaisedButton(
               elevation: 9,
               color: Colors.white,
-              splashColor: Colors.greenAccent,
+              splashColor: Colors.red,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0)),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Welcomepage()),
+                );
+              },
               //color: Theme.of(context).accentColor,
               child: Padding(
                 padding: EdgeInsets.all(5),
