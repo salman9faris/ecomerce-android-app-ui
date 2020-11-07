@@ -1,14 +1,15 @@
-# salmanapp
+# Ecommerce Android App UI
 ecomerce app ui using flutter,include home page,category,cart,and profile pages.
 
--using image carousel
+# it uses
+-image carousel
 -search bar
 -tab controller
 -bottom navigationbar
 -SliverAppBar
 
 
-A new Flutter project.
+
 
 ## Getting Started
 
